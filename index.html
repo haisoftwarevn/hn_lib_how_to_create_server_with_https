@@ -1,0 +1,27 @@
+<ul>
+  <li>
+    khi đề cập đến server
+    <ul>
+      <li>header</li>
+      <li>route</li>
+      <li>params</li>
+      <li>body</li>
+    </ul>
+  </li>
+  <li>
+    nhập data với post method từ browser
+    <ul>
+      <li>
+        ... fetch("http://localhost:3000/json", {method:"POST", body:
+        JSON.stringify({id: 3, name: "Samsung"})})
+      </li>
+      <li>...</li>
+    </ul>
+  </li>
+  <li>nhập data và nhận data ::</li>
+  <li>
+    fetch("http://localhost:3000/json", {method:"POST", body:
+    JSON.stringify({id: 3, name: "Samsung"})}).then(res =>
+    res.json()).then(friend => console.log(friend))
+  </li>
+</ul>

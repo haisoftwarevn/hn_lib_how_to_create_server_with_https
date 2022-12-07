@@ -1,0 +1,12 @@
+{
+  "name": "http-https-server",
+  "version": "1.0.0",
+  "description": "create server with https/http module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "developed by hai nam, contact haisoftwarevn@gmail.com",
+  "license": "ISC",
+  "type": "module"
+}
